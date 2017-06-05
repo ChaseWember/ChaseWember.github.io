@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <title>Chase Wember</title>
+<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -38,8 +44,10 @@ body, html {height: 100%}
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-black w3-display-container">
       <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-	    <script href="ChaseWember.github.io/Resume.html"></script>
-<p class=MsoNormal>&nbsp;</p>
+	    
+	    <div id="includedContent"></div>
+
+	    <p class=MsoNormal>&nbsp;</p>
 
 <a href="ChaseWember.github.io/Resume.pdf" download="ChaseWember_Resume">
 <p class=MsoNormal style='border:none'><span style='font-size:15pt'>ChaseWember Resume.pdf</span><span style='font-size:10.0pt;
